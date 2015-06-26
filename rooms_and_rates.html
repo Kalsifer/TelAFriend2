@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title> Tel-A-Friend Motel</title>
+
+	<!-- Google ABeeZee Font -->
+	<link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>	
+		
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+	
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script>
+	function initialize() {
+	  var myLatlng = new google.maps.LatLng(50.2528427,-119.2737897);
+	  var mapOptions = {
+		zoom: 15,
+		center: myLatlng
+	  };
+	  var map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
+
+	  new google.maps.Marker({
+		  position: myLatlng,
+		  map: map,
+		  title: 'Tel-A-Friend Motel'
+	  });
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+		
+	
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Tel-A-Friend Motel</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="rooms_and_rates.html">Rooms & Rates</a>
+                    </li>
+                    <li>
+                        <a href="#">Local Attractions</a>
+                    </li>
+					<li>
+                        <a href="#">Feedback & About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <header class="business-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline">Tel-A-Friend Motel</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+	<div class="container" id="contanier">
+		<div class="row" id="row">
+			<div class="col-sm-4">
+				<div id="rotator">
+					<img src="img/roomPictures/room1.jpg" />
+					<img src="img/roomPictures/room2.jpg" />
+					<img src="img/roomPictures/room3.jpg" />
+					<img src="img/roomPictures/room4.jpg" />
+					<img src="img/roomPictures/room5.jpg" />
+					<img src="img/roomPictures/room6.jpg" />
+					
+				</div>
+				
+				<h2>What's included?</h2>
+				<p>
+					Located in Vernon, this motel provides free Wi-Fi in all areas. A fully equipped kitchen is provided in guest suites. Kalamalka Lake Provincial Park is 15 minutes’ drive away.<br><br>
+
+					A coffee maker, a work desk, and a sofa are provided in the suites at Tel-A-Friend Motel. An en suite bathroom includes free toiletries. Guests can enjoy garden views. A gas furnace offers heating in all suites.<br><br>
+
+					A guest launderette is offered at Motel Tel-A-Friend. A vending machine provides drinks. Fax and photocopying facilities are available on site. Free on-site parking is included.<br><br>
+				</p>
+			</div>
+			<div class="col-sm-4">
+			<p id="roomRatesBlurb">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum tortor, suscipit a diam vitae, consequat hendrerit mi. Nunc rutrum pretium lacus in fermentum. Maecenas egestas non leo eget maximus. Quisque aliquam vel arcu vel pulvinar. In a felis nec mi interdum pellentesque sit amet vitae quam. Sed tempor mi vel mauris tristique, faucibus rutrum risus tempus. Nullam condimentum lectus et magna aliquet, non varius est congue. Quisque sed venenatis urna, in rutrum justo. Nullam id magna ac mi interdum imperdiet.<br><br>
+
+				Nulla gravida ac lectus et fermentum. Proin in velit dolor. Fusce egestas sapien nulla, sed ornare arcu porttitor quis. Curabitur lobortis massa eu elit tincidunt iaculis. Curabitur suscipit dolor dui, eget aliquam quam aliquam a. Praesent sed lorem dui. Morbi a malesuada justo. In pharetra nisl eu fermentum elementum. Proin vestibulum gravida metus a blandit. Pellentesque eget suscipit nisl, et tristique enim. Praesent quis tincidunt erat. Aliquam erat volutpat.<br><br>
+
+				Etiam pretium nunc sed justo sollicitudin blandit. Ut vulputate libero nunc, non hendrerit nunc ultrices vestibulum. Quisque sodales magna sed justo eleifend dictum. Nullam egestas mauris orci, vitae imperdiet nisi bibendum placerat. Fusce pulvinar ante orci, sit amet congue nisi pretium id. Vivamus vitae tellus id tellus euismod elementum. Sed congue sed urna tincidunt finibus. Duis nec orci justo. Donec et velit eget justo tincidunt molestie. Mauris pharetra risus magna, ut viverra felis gravida a. Mauris sagittis diam augue, non hendrerit lacus congue sit amet. Sed sagittis blandit risus, vitae pharetra sem ultrices non. Praesent ultricies lacus in sem faucibus, id mattis ipsum gravida. Vestibulum blandit orci in dui blandit dignissim.<br><br>
+				
+				Nulla gravida ac lectus et fermentum. Proin in velit dolor. Fusce egestas sapien nulla, sed ornare arcu porttitor quis. Curabitur lobortis massa eu elit tincidunt iaculis. Curabitur suscipit dolor dui, eget aliquam quam aliquam a. Praesent sed lorem dui. Morbi a malesuada justo. In pharetra nisl eu fermentum elementum. Proin vestibulum gravida metus a blandit. Pellentesque eget suscipit nisl, et tristique enim. Praesent quis tincidunt erat. Aliquam erat volutpat.
+			</p>
+			</div>
+				
+				
+			</div>
+		</div>
+	</div>
+
+
+    <!-- jQuery & Bootstrap -->
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/rotate.js"></script>
+    <script type="text/javascript">
+      $(window).load(function() {
+        startRotator("#rotator");
+      })
+    </script>
+	
+	<!-- Footer -->
+        <footer>
+            <p>Copyright &copy; Tel-A-Friend Motel - 1501 32nd Street, V1T 5K4 Vernon, Canada</p>
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,450 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body { 
+padding-top: 40px;/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	/*background-color: #f3eec6;*/
+	background-image: url("../img/repeat.jpg");
+	background-repeat: repeat;
+	font-family: "ABeeZee";
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+	height: 400px;
+	width: 100%;
+	background: url("../img/Untitled-3.jpg") center center no-repeat scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+	z-index: 5;
+}
+
+
+/* Animation */
+
+img.sign
+{
+	margin-left: 80%;
+	margin-right: auto;
+	display: block;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+	margin-top: 210px;
+
+}
+
+#header-row
+{
+	margin-top: -210px;
+
+}
+
+.col-xs-4 {
+	padding-bottom: 20px;
+
+}
+
+.bubbles.img-responsive
+{
+	margin: 0 auto;
+
+
+
+
+}
+.bubbles
+{
+	
+	/*border: 1px solid rgba(0,0,0,0.7);*/
+	border: 0px solid white;
+	box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+
+
+}
+
+.info
+{
+	height: 100%;
+}
+
+#google-map
+{
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	padding: 15px;
+	height: 300px;
+	width: 100%;
+}
+
+.reviews-container
+{
+	width: 50%;
+}
+
+footer
+{
+	text-align: center;
+}
+
+@font-face{
+	font-family: Bonzer;
+	src: url('../fonts/Bonzer.ttf');
+}
+
+.nav .navbar-nav
+{
+	text-align: center;
+}
+
+.booking
+{
+	position: absolute;
+	height: 0;
+	margin: 5px;
+	box-shadow: 10px 10px 25px rgba(0,0,0,0.5);
+
+}
+
+/* Tags */
+
+h1
+{
+	font-family:"Bonzer";
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 55px;
+}
+
+/* Icons */
+
+.glyphicon-ok
+{
+	color: green;
+}
+.col-sm-4
+{
+	margin-bottom: 30px;
+}
+
+.expand-300percent
+{
+	width: 100%;
+}
+
+input, select, textarea
+{
+	width: 250px;
+	margin-bottom: 10px;
+	
+}
+
+textarea
+{
+	height: 100px;
+}
+
+#contact-form
+{
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 15px;
+	width: 300px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	width: 100%
+}
+
+#reservation-button
+{
+	margin: auto;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	height: 30px;
+	border-radius: 5px;
+	background: #8fc400; /* Old browsers */
+	background: -moz-linear-gradient(top, #8fc400 0%, #8fc400 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8fc400), color-stop(100%,#8fc400)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #8fc400 0%,#8fc400 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #8fc400 0%,#8fc400 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #8fc400 0%,#8fc400 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #8fc400 0%,#8fc400 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc400', endColorstr='#8fc400',GradientType=0 ); /* IE6-9 */
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#reservation
+{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+#submit
+{
+	margin-top: 5px;
+}
+
+p
+{
+	/*padding: 15px;
+	border: 1px solid rgba(0,0,0,0.3);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	margin-bottom: 15px;*/
+	font-size: 120%;
+}
+
+#review-pics-group img
+{
+	width: 200%;
+}
+
+#review-pics-group
+{
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	width: 100%;
+	margin-top: 40px;
+	height: 300px;
+}
+
+.review-header, .contact-header, .contact-information
+{
+	padding: 10px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	border: 1px solid rgba(0,0,0,0.1);
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.review-header-container
+{
+	margin-top: 20px;
+	width: 100%;
+	margin-bottom: -41px;
+}
+
+.contact-header-container
+{
+	margin-top: 20px;
+	margin-bottom: -21px;
+	width: 100%;
+}
+
+.circle-img-container {
+	margin-top: -40px;
+}
+
+#hr-separate
+{
+	width: 50%;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+#info-pic, #room-pic
+{
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 10px 10px rgba(0,0,0,0.1);
+	width: 100%;
+	margin-top: 5px;
+}
+
+#rotator img
+{ 
+	position: absolute;
+	border: 31px solid rgba(0,0,0,0.1);
+	width: 100%;
+}
+
+#rotator
+{
+	width: 100%;
+	height: 290px;
+	box-shadow: 1px 10px 10px rgba(0,0,0,0.1);
+}
+
+#roomFeatures
+{
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 10px 10px rgba(0,0,0,0.1);
+	width: 45%;
+	padding: 10px;
+	background-color: #f3eec6;
+}
+
+ #roomRatesBlurb
+ {
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 10px 10px rgba(0,0,0,0.1);
+	padding: 20px;
+	background-color: #f3eec6;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 200%;
+
+ }
+ 
+ .contact-info
+ {
+	width: 100%;
+	padding: 10px;
+	font-size: 100%;
+	text-align: left;
+ }
+
+ .contact-header-container{
+
+	 width: 100%;
+ }
+ 
+ #contact
+ {
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	padding: 5px;
+	width: 100%;
+ }
+ 
+ #contact input, #contact textarea
+ {
+	/*background-color: white;*/
+	width: 100%;
+	margin: auto;
+	margin-bottom: 10px;
+ }
+ 
+ #formContainer
+ {
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+ }
+ 
+ .availability
+ {
+	margin-bottom: 20px;
+ }
+
+.about_container
+{
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	padding: 5px 5px 5px 5px;
+}
+
+.container2
+{
+	background-color: white;
+	margin-top: 50px;
+}
+
+#test_div {
+	height: 300px;
+	width: 300px;
+}
+
+.media
+{
+	margin-bottom: 25px;
+	background-color: #ffffff;
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	padding: 10px;
+}
+
+.media-object
+{
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+}
+
+.trip_icons
+{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.trip_icons li
+{
+	float: left;
+	margin-right: 5px;
+
+}
+
+.panel-body
+{
+	padding-bottom: 0px;
+}
+
+.review-header
+{
+	margin-bottom: -20px;
+	background-color: white;
+}
+
+#amenities_container
+{
+	padding: 20px 20px 1px 20px;
+
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+}
+
+.panel-body li
+{
+	list-style: none;
+}
+
+section.rooms-rates
+{
+	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+/* Image Gallery CSS */
+
+.slick-slide img {
+	border: 5px solid #FFF;
+	border-radius: 5px;
+	display: block;
+	width: 100%;
+}
+
+.rooms div
+{
+	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	margin: 10px;
+	width: 30%;
+	background-color: #67b168;
+}
+
+section
+{
+	background-color: #f3eec6;
+}
+
+.main-body
+{
+	margin-top: 180px;
+}

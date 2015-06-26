@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tel-A-Friend Motel Website">
+    <meta name="author" content="Sean Anthony Russell">
+    <title> Tel-A-Friend Motel</title>
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- Google ABeeZee Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <!-- Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <!-- Google Maps Script Start -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        var google = google || {};
+
+        function initialize() {
+			var lat_lng = new google.maps.LatLng(50.2528427, -119.2737897);
+
+            var mapOptions = {
+                zoom: 15,
+                center: lat_lng
+            };
+            var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+
+            new google.maps.Marker({
+                position: lat_lng,
+                map: map,
+                title: 'Tel-A-Friend Motel'
+            });
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <!-- Google Maps Script End -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <meta name="viewport" content="width=device-width"/>
+
+    <style>
+        @media (max-width: 770px) {
+            .bubble-pic-remove {
+                display: none;
+            }
+
+            .rooms div, #google-map {
+                width: 100%;
+            }
+
+            .img-main {
+                content: url("img/bubblePic4.jpg");
+            }
+        }
+    </style>
+
+</head>
+
+<!-- Navigation Start -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Tel-A-Friend Motel</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="rooms_and_rates.html">Rooms & Rates</a>
+                </li>
+                <li>
+                    <a href="attractions.html">Local Attractions</a>
+                </li>
+                <li>
+                    <a href="about.html">Feedback & About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navigation End -->
+
+
+
+
+<!-- Page Content -->
+<div class="container">
+
+            <div class="row" id="header-row">
+
+        <div class="col-xs-4">
+
+         </div>
+                </div>
+            <div class="sidebar">
+
+                <div id="reservation">
+                    <form action="http://www.booking.com/hotel/ca/tel-a-friend-motel.html?aid=829176">
+                        <!--	<input type="submit" value="Make a reservation today"> -->
+                        <button type="submit" class="btn btn-info btn-lg">Make a reservation today!</button>
+                    </form>
+                </div>
+
+                <div class="expand-300percent rooms-rates">
+
+                    <section class="rooms-rates main-body">
+                        <!-- Image Background Page Header -->
+                        <!-- Note: The background image is set within the business-casual.css file. -->
+                        <header class="business-header">
+
+                        </header>
+
+                        <div class="circle-img-container">
+                            <div class="col-xs-4">
+                                <a href="attractions.html"><img class="img-circle img-responsive bubbles" src="img/bubblePic1.jpg" alt="attractions"></a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="about.html"><img class="img-circle img-responsive bubble-pic-remove bubbles" src="img/bubblePic2.jpg" alt="About Us"></a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="rooms_and_rates.html"><img class="img-circle img-responsive bubble-pic-remove bubbles" src="img/bubblePic3.jpg" alt="Rooms and Rates"></a>
+                            </div>
+                        </div>
+                        <section class="info">
+                            <h1>Tel-A-Friend, Country-Style Motel</h1>
+
+                            <p>
+                                Located within walking distance of downtown Vernon shops and parks, the Tel-A-Friend Country Motel
+                                brings you 50' eclectic charm and reasonable rates.
+                                Whether you are in Vernon for business or pleasure, the Tel-A-Friend Motel is a convenient and
+                                comfortable spot to stay. Skiing, biking, hiking, golfing, and wine tours, Tel-A-Friend is close to
+                                it all!
+                            </p>
+                            <p>
+                                Our rooms are clean, homey and comfortable and every room has it's own kitchenette. We also offer free Wifi for your browsing needs. Check out
+                                the <a href="attractions.html">local attractions</a> page for information on food services and things to do.
+                            </p>
+                        </section>
+                        </section>
+
+                        <section class="rooms-rates">
+                        <div class="slider autoplay fade2">
+                            <!--   <div><h3>1</h3></div>
+                               <div><h3>2</h3></div>
+                               <div><h3>3</h3></div>
+                               <div><h3>4</h3></div>
+                               <div><h3>5</h3></div>
+                               <div><h3>6</h3></div>-->
+
+                            <div><div class="image"><img src="img/room-pictures/room1.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room2.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room3.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room4.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room5.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room6.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room7.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room8.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room9.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room10.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room11.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room12.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room13.jpg"></div></div>
+                            <div><div class="image"><img src="img/room-pictures/room14.jpg"></div></div>
+                        </div>
+
+                            <!-- Rooms -->
+                            <div class="row rooms">
+                                <!-- Room 1 -->
+                                <div class="col-md-4">
+
+                                    <h1 class="">Room Details</h1>
+                                    <h3>Single Queen</h3>
+                                    Max
+                                    <span class="glyphicon glyphicon-user"></span>
+                                    <span class="glyphicon glyphicon-user"></span>
+
+                                    <ul>
+                                        <li>Free toiletries</li>
+                                        <li>Toilet</li>
+                                        <li>Bathroom</li>
+                                        <li>Shower</li>
+                                        <li>Wardrobe/Closet</li>
+                                        <li>Garden view</li>
+                                        <li>Microwave</li>
+                                        <li>Coffee machine</li>
+                                        <li>Kitchenware</li>
+                                        <li>Refrigerator</li>
+                                        <li>Oven</li>
+                                        <li>Stovetop</li>
+                                        <li>Kitchen</li>
+                                        <li>Sofa</li>
+                                        <li>Desk</li>
+                                        <li>Telephone</li>
+                                        <li>Vending machine (drinks)</li>
+                                        <li>Laundry</li>
+                                        <li>Fax/photocopying</li>
+                                        <li>Non-smoking rooms</li>
+                                        <li>Facilities for disabled guests</li>
+                                        <li>Heating</li>
+                                        <li>Air conditioning</li>
+                                        <li>Carpeted</li>
+                                        <li>Private entrance</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Room 2 -->
+                                <div class="col-md-4">
+
+                                    <h1 class="">Room Details</h1>
+                                    <h3>Queen & Twin</h3>
+                                    Max
+                                    <span class="glyphicon glyphicon-user"></span>
+                                    <span class="glyphicon glyphicon-user"></span>
+                                    <span class="glyphicon glyphicon-user"></span>
+                                    <ul>
+                                        <li>Free toiletries</li>
+                                        <li>Toilet</li>
+                                        <li>Bathroom</li>
+                                        <li>Shower</li>
+                                        <li>Wardrobe/Closet</li>
+                                        <li>Garden view</li>
+                                        <li>Microwave</li>
+                                        <li>Coffee machine</li>
+                                        <li>Kitchenware</li>
+                                        <li>Refrigerator</li>
+                                        <li>Oven</li>
+                                        <li>Stovetop</li>
+                                        <li>Kitchen</li>
+                                        <li>Sofa</li>
+                                        <li>Desk</li>
+                                        <li>Telephone</li>
+                                        <li>Vending machine (drinks)</li>
+                                        <li>Laundry</li>
+                                        <li>Fax/photocopying</li>
+                                        <li>Non-smoking rooms</li>
+                                        <li>Facilities for disabled guests</li>
+                                        <li>Heating</li>
+                                        <li>Air conditioning</li>
+                                        <li>Carpeted</li>
+                                        <li>Private entrance</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Room 3 -->
+                                <div class="col-md-4">
+
+                                    <h1 class="">Room Details</h1>
+                                    <h3>King & Pullout </h3>
+                                    Max
+                                    <span class="glyphicon glyphicon-user"></span>
+                                    <span class="glyphicon glyphicon-user"></span>
+                                    <span class="glyphicon glyphicon-user"></span>
+                                    <span class="glyphicon glyphicon-user"></span>
+                                    <ul>
+                                        <li>Free toiletries</li>
+                                        <li>Toilet</li>
+                                        <li>Bathroom</li>
+                                        <li>Shower</li>
+                                        <li>Wardrobe/Closet</li>
+                                        <li>Garden view</li>
+                                        <li>Microwave</li>
+                                        <li>Coffee machine</li>
+                                        <li>Kitchenware</li>
+                                        <li>Refrigerator</li>
+                                        <li>Oven</li>
+                                        <li>Stovetop</li>
+                                        <li>Kitchen</li>
+                                        <li>Sofa</li>
+                                        <li>Desk</li>
+                                        <li>Telephone</li>
+                                        <li>Vending machine (drinks)</li>
+                                        <li>Laundry</li>
+                                        <li>Fax/photocopying</li>
+                                        <li>Non-smoking rooms</li>
+                                        <li>Facilities for disabled guests</li>
+                                        <li>Heating</li>
+                                        <li>Air conditioning</li>
+                                        <li>Carpeted</li>
+                                        <li>Private entrance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                </div>
+                    </section>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+
+                <!-- Reviews Start
+    <div class="row">
+                <div class="reviews-container">
+                <div class="expand-300percent">
+                    <p class="review-header">Customer Reviews</p>
+                </div>
+
+                <div class="media expand-300percent">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="img/reviews/score1.jpg" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">"Favorite Motel"</h4>
+
+                        <ul class="trip_icons">
+                            <li><img src="img/reviews/icons/leisure.png" alt="leisure"></li>
+                            <li><img src="img/reviews/icons/family.png" alt="family"></li>
+                            <li><img src="img/reviews/icons/one_bedroom.png" alt="one_bedroom"></li>
+                            <li><img src="img/reviews/icons/one_night.png" alt="one_night"></li>
+                        </ul><br>
+
+                        We weren't expecting much when we booked the motel: the cost is low, the facility looks old, even the name is dated. But once we opened the room, we knew we found a gem. Everything is very clean and organized. The room smells like fresh laundry, and definitely shows the attention to details that have been put into it. It's quiet in the night, and just very comfortable. We will tell a friend about this motel.<br><br>
+                        Also, the location is very good. The pizza and ice cream across the street at Jim's Place are very delicious. Two blocks away there's a big convenience store where we bought fruits and energy drinks (for the road).
+                    </div>
+                </div>
+
+                <div class="media expand-300percent">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="img/reviews/score2.jpg" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">"It feels like home with a funky eclectic charm."</h4>
+
+                        <ul class="trip_icons">
+                            <li><img src="img/reviews/icons/leisure.png" alt="leisure"></li>
+                            <li><img src="img/reviews/icons/group.png" alt="group"></li>
+                            <li><img src="img/reviews/icons/one_bedroom.png" alt="one_bedroom"></li>
+                            <li><img src="img/reviews/icons/one_night.png" alt="one_night"></li>
+                        </ul><br>
+
+                        I loved the attention to detail both in decor and cleanliness. It is run with care and ease. I have never opened a room to a motel and said "Oh boy" before, don't miss this gem!
+                    </div>
+                </div>
+
+                <div class="media expand-300percent">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="img/reviews/score3.jpg" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">"Superb"</h4>
+
+                        <ul class="trip_icons">
+                            <li><img src="img/reviews/icons/business.png" alt="leisure"></li>
+                            <li><img src="img/reviews/icons/solo.png" alt="group"></li>
+                            <li><img src="img/reviews/icons/one_bedroom.png" alt="one_bedroom"></li>
+                            <li><img src="img/reviews/icons/one_night.png" alt="one_night"></li>
+                        </ul><br>
+
+                        What sets the Tel-A-Friend apart from the rest is the good location up on the hill and the lovely sunset.
+                        Ton of character! I had a good sound sleep. Quiet, cozy, comfortable and very clean. I'll be back....
+                    </div>
+                </div>
+                </div>
+        </div>
+                Reviews End -->
+
+
+                <!-- Contact Information Start -->
+                <div class="row">
+                <div class="contact-container">
+                    <div class="col-md-4">
+                        <form id="contact" class="bg-success">
+                            <div id="formContainer">
+                                First Name<br><input type="text" id="fname" placeholder=" Jane/John"/><br>
+                                Last Name<br><input type="text" id="lname" placeholder=" Doe"/><br>
+                                E-mail<br><input type="text" id="email" placeholder=" email@email.com"/><br>
+                                Phone Number<br><input type="text" id="phone" placeholder=" 1-(555)-555-5555"/><br><br>
+
+                                Comments?<br><textarea id="comments" placeholder=" I've got a question!"></textarea>
+                                <input type="button" class="btn btn-info btn-lg" value="Submit" id="submitButton"/>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="panel panel-info bg-info">
+                            <div class="contact-info">
+                                <div class="panel-body">
+                                    <p>
+                                        Need information? Feel free to contact us any time during our business hours.
+                                    </p>
+                                    <address>
+                                        <span class="glyphicon glyphicon-phone"></span> <strong>Phone:</strong> 1-(250)-558-1129<br>
+                                        <span class="glyphicon glyphicon-envelope"></span> <strong>Address:</strong> 1501 32 St
+                                        Vernon, BC
+                                        V1T 5K4
+                                    </address>
+                                    We look forward to hearing from you!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Information End -->
+
+                <!-- Google Maps Start -->
+                <a href="https://www.google.ca/maps/place/1501+32+St,+Vernon,+BC+V1T+5K4/@50.25286,-119.2733165,17z/data=!4m7!1m4!3m3!1s0x537dd8d8f57bfced:0x34ef1c35676eaa8c!2s1501+32+St,+Vernon,+BC+V1T+5K4!3b1!3m1!1s0x537dd8d8f57bfced:0x34ef1c35676eaa8c?hl=en">
+                    <div class="col-md-4" id="googleMapContainer">
+                        <div id="google-map"></div>
+                    </div>
+                </a><br>
+                <!-- Google Maps End -->
+            </div>
+            </div>
+
+    <!-- Sidebar Start -->
+
+
+    <!-- Booking Score Start
+        <div class="booking">
+        <script>
+        !function()
+            {
+                var e=Math.floor(1e5*Math.random()),t="bcom_rwidget_"+e;document.write('<div id="'+t+'"></div>');
+
+                var i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src="http://www.booking.com/review_widget/ca/tel-a-friend-motel.en.html?tmpl=review_widget/review_widget&wid="+t+"&wtype=box_small&hotel_id=311088&widget_language=en";
+
+                var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(i,r)
+            }();
+        </script>
+        <img src="http://www.bbb.org/mbc/images/2/ratings/cbbb-non-accred-a-plus.png" alt="BBB® Non-Accredited A+ Rating" title="BBB® Non-Accredited A+ Rating">
+
+        </div>
+        Booking Score End -->
+
+
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Slick -->
+<script type="text/javascript" src="slick/slick.js"></script>
+<script type="text/javascript" src="js/slicksettings.js"></script>
+
+
+</body>
+<footer>
+    <p>Copyright &copy; Tel-A-Friend Motel - 1501 32nd Street, V1T 5K4 Vernon, Canada</p>
+</footer>
+</html>
