@@ -441,7 +441,11 @@ section
 	background-color: #f3eec6;
 }
 
-.main-body
+.tab-content
 {
-
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding: 20px;
 }
