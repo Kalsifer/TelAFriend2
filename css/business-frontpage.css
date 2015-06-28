@@ -53,7 +53,7 @@ img.sign
 
 #header-row
 {
-	margin-top: -210px;
+	margin-top: -210 px;
 
 }
 
@@ -89,8 +89,7 @@ section#info
 {
 	border: 1px solid rgba(0,0,0,0.1);
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
-	padding: 15px;
-	height: 300px;
+	height: 273px;
 	width: 100%;
 }
 
@@ -413,12 +412,13 @@ section.section-styling
 {
 	border: 1px solid rgba(0,0,0,0.2);
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
-	border-radius: 5px;
+	border-radius: 0px;
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 40px;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
+	margin-top: -1px;
 }
 
 /* Image Gallery CSS */
@@ -449,6 +449,24 @@ section
 	border-left: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 	border-right: 1px solid #ddd;
+	margin-left: 20px;
+	margin-right: 20px;
 	margin-bottom: 20px;
 	padding: 20px;
+}
+
+.room-slider
+{
+	width: 50%;
+}
+
+.nav-tabs
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+section .room-rates
+{
+	padding-bottom: 40px;
 }
