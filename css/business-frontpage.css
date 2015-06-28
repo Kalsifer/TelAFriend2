@@ -8,8 +8,13 @@ body {
 padding-top: 40px;/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 	/*background-color: #f3eec6;*/
 	background-image: url("../img/repeat.jpg");
+	z-index: 0;
 	background-repeat: repeat;
 	font-family: "ABeeZee";
+}
+
+.container {
+
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
@@ -27,15 +32,23 @@ padding-top: 40px;/* Required padding for .navbar-fixed-top. Remove if using .na
 	z-index: 5;
 }
 
+.intro
+{
+	position:relative;
+	bottom:150px;
+}
 
 /* Animation */
 
-img.sign
+#sign
 {
-	margin-left: 80%;
-	margin-right: auto;
+	margin-right: 85%;
+	margin-left: auto;
 	display: block;
+	visibility: hidden;
+	z-index: -2;
 }
+
 
 /* Customize the text color and shadow color and to optimize text legibility. */
 
@@ -44,9 +57,9 @@ img.sign
 .tagline {
     text-shadow: 0 0 10px #000;
     color: #fff;
-	margin-top: 50px;
+	margin-top: 5px;
 	text-align: center;
-	font-size: 160px;
+	font-size: 8vw;
 
 
 }
@@ -130,7 +143,8 @@ h1
 	font-family:"Bonzer";
 	margin-top: 40px;
 	font-weight: bold;
-	font-size: 55px;
+
+	font-size: 3vw;
 }
 
 /* Icons */
@@ -162,7 +176,7 @@ textarea
 	padding: 15px;
 	width: 300px;
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
-	width: 100%
+
 }
 
 #reservation-button
