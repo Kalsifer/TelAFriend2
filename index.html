@@ -65,7 +65,7 @@
 
     <meta name="viewport" content="width=device-width"/>
 
-    <style>
+  <!--  <style>
         @media (max-width: 770px) {
             .bubble-pic-remove {
                 display: none;
@@ -79,7 +79,7 @@
                 content: url("img/bubblePic4.jpg");
             }
         }
-    </style>
+    </style> -->
 
 </head>
 
@@ -119,6 +119,7 @@
 
 <header class="business-header">
 <h1 class="tagline fadeIn">Tel-A-Friend Motel</h1>
+    <img src="img/sign.png" id="sign" class="fadeIn">
 </header>
 
 <!-- Page Content -->
@@ -141,20 +142,21 @@
 
 
 
+    <section class="section-styling">
 
                         <div class="circle-img-container">
-                            <div class="col-xs-4">
+                            <div class="col-sm-4">
                                 <a href="attractions.html"><img class="img-circle img-responsive bubbles" src="img/bubblePic1.jpg" alt="attractions"></a>
                             </div>
-                            <div class="col-xs-4">
+                            <div class="col-sm-4">
                                 <a href="about.html"><img class="img-circle img-responsive bubble-pic-remove bubbles" src="img/bubblePic2.jpg" alt="About Us"></a>
                             </div>
-                            <div class="col-xs-4">
+                            <div class="col-sm-4">
                                 <a href="rooms_and_rates.html"><img class="img-circle img-responsive bubble-pic-remove bubbles" src="img/bubblePic3.jpg" alt="Rooms and Rates"></a>
                             </div>
                         </div>
 
-                        <section class="section-styling">
+                            <div class="intro">
                             <h1>Tel-A-Friend, Country-Style Motel</h1>
 
 
@@ -171,6 +173,12 @@
                                 Our rooms are clean, homey and comfortable and every room has it's own kitchenette. We also offer free Wifi for your browsing needs. Check out
                                 the <a href="attractions.html">local attractions</a> page for information on food services and things to do.
                             </p>
+                                <div id="reservation">
+                                    <form action="http://www.booking.com/hotel/ca/tel-a-friend-motel.html?aid=829176">
+                                        <button type="submit" class="btn btn-info btn-lg">Make a reservation today!</button>
+                                    </form>
+                                </div>
+                                </div>
                         </section>
                     
 
