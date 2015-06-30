@@ -102,7 +102,13 @@ section#info
 {
 	border: 1px solid rgba(0,0,0,0.1);
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
-	height: 273px;
+	height: 468px;
+	width: 100%;
+}
+
+#googleMapContainer
+{
+	padding: 0px;
 	width: 100%;
 }
 
@@ -140,7 +146,6 @@ footer
 h1
 {
 	font-family:"Bonzer";
-	margin-top: 40px;
 	font-weight: bold;
 
 	font-size: 3vw;
@@ -372,11 +377,11 @@ p
 
 .media
 {
-	margin-bottom: 25px;
 	background-color: #ffffff;
 	border: 1px solid rgba(0,0,0,0.1);
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 	padding: 10px;
+	width: 100%
 }
 
 .media-object
@@ -456,6 +461,7 @@ section.section-styling
 section
 {
 	background-color: #f3eec6;
+	padding: 15px;
 }
 
 .tab-content
@@ -463,10 +469,9 @@ section
 	border-left: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 	border-right: 1px solid #ddd;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+
 	padding: 20px;
+	background-color: white;
 }
 
 .room-slider
@@ -476,11 +481,14 @@ section
 
 .nav-tabs
 {
-	margin-left: 20px;
-	margin-right: 20px;
 }
 
 section .room-rates
 {
 	padding-bottom: 40px;
+}
+
+#room1-picture1
+{
+	display: none;
 }

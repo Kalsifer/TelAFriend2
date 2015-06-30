@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html>>
 
 <head lang="en">
 
@@ -53,7 +53,6 @@
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
     <!-- Google Maps Script End -->
-
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -123,7 +122,7 @@
 </header>
 
 <!-- Page Content -->
-<div class="container">
+<section class="container">
 
    <!--         <div class="row" id="header-row">
 
@@ -183,40 +182,18 @@
                     
 
                         <section class="rooms-rates">
-                        <div class="slider autoplay fade2">
-                            <!--   <div><h3>1</h3></div>
-                               <div><h3>2</h3></div>
-                               <div><h3>3</h3></div>
-                               <div><h3>4</h3></div>
-                               <div><h3>5</h3></div>
-                               <div><h3>6</h3></div>-->
 
-                            <div><div class="image"><img src="img/room-pictures/room1.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room2.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room3.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room4.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room5.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room6.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room7.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room8.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room9.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room10.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room11.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room12.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room13.jpg"></div></div>
-                            <div><div class="image"><img src="img/room-pictures/room14.jpg"></div></div>
-                        </div><br>
-
+                        <h1>Room Information</h1>
                         <div>
                             <ul class="nav nav-tabs">
-                                <li class="active">
+                                <li class="active" id="room1">
                                     <a data-toggle="pill" href="#home">
                                         Single Queen (Max
                                         <span class="glyphicon glyphicon-user"></span>
                                         <span class="glyphicon glyphicon-user"></span>)
                                     </a>
                                 </li>
-                                <li>
+                                <li id="room2">
                                     <a data-toggle="pill" href="#home">
                                         Queen & Twin (Max
                                         <span class="glyphicon glyphicon-user"></span>
@@ -224,7 +201,7 @@
                                         <span class="glyphicon glyphicon-user"></span>)
                                     </a>
                                 </li>
-                                <li>
+                                <li id="room3">
                                     <a data-toggle="pill" href="#home">
                                         King & Pullout (Max
                                         <span class="glyphicon glyphicon-user"></span>
@@ -240,8 +217,7 @@
                             <div id="home" class="tab-pane fade in active">
                                 <h3>HOME</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                                <div class="slider autoplay fade2 room-slider">
+                                <div class="slider autoplay fade2" id="img-rotate">
                                     <!--   <div><h3>1</h3></div>
                                        <div><h3>2</h3></div>
                                        <div><h3>3</h3></div>
@@ -278,8 +254,8 @@
                                 <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             </div>
                         </div>
-                <br>
-                <br>
+                            </section>
+                            </section><br>
 
 
                 <!-- Reviews Start
@@ -354,8 +330,8 @@
         </div>
                 Reviews End -->
 
-
-                <!-- Contact Information Start -->
+<div class="container">
+        <section class="section-styling">
                 <div class="row">
                 <div class="contact-container">
                     <div class="col-md-4">
@@ -373,9 +349,38 @@
                     </div>
 
                     <div class="col-md-4">
+
+                        <!-- Google Maps Start -->
+                        <a href="https://www.google.ca/maps/place/1501+32+St,+Vernon,+BC+V1T+5K4/@50.25286,-119.2733165,17z/data=!4m7!1m4!3m3!1s0x537dd8d8f57bfced:0x34ef1c35676eaa8c!2s1501+32+St,+Vernon,+BC+V1T+5K4!3b1!3m1!1s0x537dd8d8f57bfced:0x34ef1c35676eaa8c?hl=en">
+                            <div class="col-md-4" id="googleMapContainer">
+                                <div id="google-map"></div>
+                            </div>
+                        </a>
+                        <!-- Google Maps End -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="media expand-300percent">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="img/reviews/score3.jpg" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">"Superb"</h4>
+
+                                <ul class="trip_icons">
+                                    <li><img src="img/reviews/icons/business.png" alt="leisure"></li>
+                                    <li><img src="img/reviews/icons/solo.png" alt="group"></li>
+                                    <li><img src="img/reviews/icons/one_bedroom.png" alt="one_bedroom"></li>
+                                    <li><img src="img/reviews/icons/one_night.png" alt="one_night"></li>
+                                </ul><br>
+
+                                What sets the Tel-A-Friend apart from the rest is the good location up on the hill and the lovely sunset.
+                                Ton of character! I had a good sound sleep. Quiet, cozy, comfortable and very clean. I'll be back....
+                            </div>
+                        </div>
                         <div class="panel panel-info bg-info">
-                            <div class="contact-info">
-                                <div class="panel-body">
+                            <div class="contact-info"><div class="panel-body">
                                     <p>
                                         Need information? Feel free to contact us any time during our business hours.
                                     </p>
@@ -389,24 +394,12 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Google Maps Start -->
-                        <a href="https://www.google.ca/maps/place/1501+32+St,+Vernon,+BC+V1T+5K4/@50.25286,-119.2733165,17z/data=!4m7!1m4!3m3!1s0x537dd8d8f57bfced:0x34ef1c35676eaa8c!2s1501+32+St,+Vernon,+BC+V1T+5K4!3b1!3m1!1s0x537dd8d8f57bfced:0x34ef1c35676eaa8c?hl=en">
-                            <div class="col-md-4" id="googleMapContainer">
-                                <div id="google-map"></div>
-                            </div>
-                        </a><br>
-                        <!-- Google Maps End -->
                     </div>
                 </div>
-                <!-- Contact Information End -->
-
-                        </section>
-
-
+                </div>
+        </section>
             </div>
-
-    <!-- Sidebar Start -->
-
+</html>
 
     <!-- Booking Score Start
         <div class="booking">
