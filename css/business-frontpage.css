@@ -46,6 +46,7 @@ padding-top: 40px;/* Required padding for .navbar-fixed-top. Remove if using .na
 	margin-left: auto;
 	display: block;
 	visibility: hidden;
+	display: none;
 	z-index: -2;
 }
 
@@ -147,8 +148,23 @@ h1
 {
 	font-family:"Bonzer";
 	font-weight: bold;
-
+	padding-left: 20px;
+	margin-left: -20px;
 	font-size: 3vw;
+
+
+}
+
+.h1-rooms-info
+{
+	padding-left: 20px;
+	margin-left: -25px;
+	margin-right: -25px;
+	margin-bottom: 20px;
+	font-size: 3vw;
+
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 }
 
 /* Icons */
@@ -432,10 +448,7 @@ section.section-styling
 	border: 1px solid rgba(0,0,0,0.2);
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 	border-radius: 0px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 40px;
-	padding-bottom: 10px;
+	padding: 0px 20px 20px 20px;
 	margin-bottom: 20px;
 	margin-top: -1px;
 }
@@ -491,4 +504,13 @@ section .room-rates
 #room1-picture1
 {
 	display: none;
+}
+
+.room-general-blurb{
+	padding: 10px;
+	margin-right: -25px;
+	margin-left: -25px;
+	margin-bottom: 20px;
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 }
