@@ -46,6 +46,7 @@ padding-top: 40px;/* Required padding for .navbar-fixed-top. Remove if using .na
 	margin-left: auto;
 	display: block;
 	visibility: hidden;
+	display: none;
 	z-index: -2;
 }
 
@@ -66,7 +67,7 @@ padding-top: 40px;/* Required padding for .navbar-fixed-top. Remove if using .na
 
 #header-row
 {
-	margin-top: -210px;
+	margin-top: -210 px;
 
 }
 
@@ -102,8 +103,13 @@ section#info
 {
 	border: 1px solid rgba(0,0,0,0.1);
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
-	padding: 15px;
-	height: 300px;
+	height: 468px;
+	width: 100%;
+}
+
+#googleMapContainer
+{
+	padding: 0px;
 	width: 100%;
 }
 
@@ -141,10 +147,24 @@ footer
 h1
 {
 	font-family:"Bonzer";
-	margin-top: 40px;
 	font-weight: bold;
-
+	padding-left: 20px;
+	margin-left: -20px;
 	font-size: 3vw;
+
+
+}
+
+.h1-rooms-info
+{
+	padding-left: 20px;
+	margin-left: -25px;
+	margin-right: -25px;
+	margin-bottom: 20px;
+	font-size: 3vw;
+
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 }
 
 /* Icons */
@@ -373,11 +393,11 @@ p
 
 .media
 {
-	margin-bottom: 25px;
 	background-color: #ffffff;
 	border: 1px solid rgba(0,0,0,0.1);
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 	padding: 10px;
+	width: 100%
 }
 
 .media-object
@@ -427,12 +447,10 @@ section.section-styling
 {
 	border: 1px solid rgba(0,0,0,0.2);
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
-	border-radius: 5px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 40px;
-	padding-bottom: 10px;
+	border-radius: 0px;
+	padding: 0px 20px 20px 20px;
 	margin-bottom: 20px;
+	margin-top: -1px;
 }
 
 /* Image Gallery CSS */
@@ -456,6 +474,7 @@ section.section-styling
 section
 {
 	background-color: #f3eec6;
+	padding: 15px;
 }
 
 .tab-content
@@ -463,6 +482,35 @@ section
 	border-left: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 	border-right: 1px solid #ddd;
-	margin-bottom: 20px;
+
 	padding: 20px;
+	background-color: white;
+}
+
+.room-slider
+{
+	width: 50%;
+}
+
+.nav-tabs
+{
+}
+
+section .room-rates
+{
+	padding-bottom: 40px;
+}
+
+#room1-picture1
+{
+	display: none;
+}
+
+.room-general-blurb{
+	padding: 10px;
+	margin-right: -25px;
+	margin-left: -25px;
+	margin-bottom: 20px;
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 }
