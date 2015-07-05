@@ -13,9 +13,14 @@ padding-top: 40px;/* Required padding for .navbar-fixed-top. Remove if using .na
 	font-family: "ABeeZee";
 }
 
-.container {
+.container.circle-img-container {
 
+	position: relative;
+	bottom: 200px;
+	height: -200px;
 }
+
+
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
@@ -31,11 +36,16 @@ padding-top: 40px;/* Required padding for .navbar-fixed-top. Remove if using .na
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 	z-index: 5;
 }
+.inner-section
+{
 
+	width:100%;
+	/*margin-bottom:200px; */
+}
 .intro
 {
-	position:relative;
-	bottom:150px;
+/*	position:relative;
+	bottom:150px; */
 }
 
 /* Animation */
@@ -275,11 +285,7 @@ p
 	width: 100%;
 }
 
-.circle-img-container {
 
-		position: relative;
-		bottom: 200px;
-}
 
 #hr-separate
 {
