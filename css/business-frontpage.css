@@ -13,11 +13,11 @@ padding-top: 40px;/* Required padding for .navbar-fixed-top. Remove if using .na
 	font-family: "ABeeZee";
 }
 
-.container.circle-img-container {
+.circle-img-container {
 
 	position: relative;
 	bottom: 200px;
-	height: -200px;
+
 }
 
 
