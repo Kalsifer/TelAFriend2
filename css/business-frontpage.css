@@ -4,9 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body { 
-padding-top: 40px;/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-	/*background-color: #f3eec6;*/
+body {
 	background-image: url("../img/repeat.jpg");
 	z-index: 0;
 	background-repeat: repeat;
@@ -14,10 +12,8 @@ padding-top: 40px;/* Required padding for .navbar-fixed-top. Remove if using .na
 }
 
 .circle-img-container {
-
-	position: relative;
-	bottom: 200px;
-
+	margin-top: -300px;
+	width: 50%;
 }
 
 
@@ -502,10 +498,7 @@ section
 {
 }
 
-section .room-rates
-{
-	padding-bottom: 40px;
-}
+
 
 #room1-picture1
 {
@@ -513,10 +506,24 @@ section .room-rates
 }
 
 .room-general-blurb{
-	padding: 10px;
+	padding: 20px;
 	margin-right: -25px;
 	margin-left: -25px;
 	margin-bottom: 20px;
 	border: 1px solid rgba(0,0,0,0.1);
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 }
+
+.container
+{
+	margin-top: -100px;
+	background-color: papayawhip;
+	border-radius: 5px;
+	padding: 10px;
+
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	padding-top: 10px;
+}
+
+.c
