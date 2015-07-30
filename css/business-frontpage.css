@@ -12,7 +12,7 @@ body {
 }
 
 .circle-img-container {
-	margin-top: -300px;
+	margin: -200px auto;
 	width: 50%;
 }
 
@@ -21,9 +21,9 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-	height: 400px;
+	height: 500px;
 	width: 100%;
-	background: url("../img/header2.jpg") center center no-repeat scroll;
+	background: url("../img/header4.jpg") center center no-repeat scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -64,16 +64,25 @@ body {
 .tagline {
     text-shadow: 0 0 10px #000;
     color: #fff;
-	margin-top: 5px;
+	margin-top: 25px;
 	text-align: center;
 	font-size: 8vw;
+	font-family: Bonzer;
 
+
+
+
+}
+
+.outside-pics {
+
+	padding-top: 10px;
 
 }
 
 #header-row
 {
-	margin-top: -210 px;
+
 
 }
 
@@ -516,14 +525,17 @@ section
 
 .container
 {
-	margin-top: -100px;
-	background-color: papayawhip;
+
 	border-radius: 5px;
 	padding: 10px;
-
 	border: 1px solid rgba(0,0,0,0.1);
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 	padding-top: 10px;
 }
 
-.c
+.container.fill
+{
+
+	background-color: papayawhip;
+	margin-top: 200px;
+}
