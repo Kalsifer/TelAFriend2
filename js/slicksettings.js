@@ -17,4 +17,17 @@ $(document).ready(function(){
         autoplaySpeed: 2000
     });
 
+    $('.outside').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 2000,
+        fade: true,
+        cssEase: 'linear',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000
+    });
+
 });

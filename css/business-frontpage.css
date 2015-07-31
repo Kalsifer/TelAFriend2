@@ -80,6 +80,16 @@ body {
 
 }
 
+.left {
+	float:right;
+
+}
+
+.clearfix {
+	overflow:auto;
+}
+
+
 #header-row
 {
 
@@ -170,7 +180,7 @@ h1
 
 }
 
-.h1-rooms-info
+.h1-title
 {
 	padding-left: 20px;
 	margin-left: -25px;
