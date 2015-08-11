@@ -9,21 +9,43 @@ body {
 	z-index: 0;
 	background-repeat: repeat;
 	font-family: "ABeeZee";
+	padding-top: 70px;
 }
 
-.circle-img-container {
-	margin: -200px auto;
-	width: 50%;
+@media screen and (min-width: 992px) {
+	.circle-img-container {
+		margin: -200px auto;
+		width: 50%;
+	}
+
+	.container.fill {
+		margin-top: 200px;
+	}
 }
+
+@media screen and (max-width: 768px)  {
+.circle-img-container
+{
+
+	margin: -250px auto;
+	width:80%;
+
+}
+.container.fill
+{
+	margin-top: 300px;
+}
+
+								  }
 
 
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
-.business-header {
+#business-header {
 	height: 500px;
 	width: 100%;
-	background: url("../img/header4.jpg") center center no-repeat scroll;
+/*	background: url("../img/header-text.jpg") center center no-repeat scroll; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -42,6 +64,12 @@ body {
 {
 /*	position:relative;
 	bottom:150px; */
+}
+
+.review-container
+{
+
+	width: 95%;
 }
 /* Horizontal line */
 hr.symbol {
@@ -74,6 +102,18 @@ hr.symbol:after {
 	z-index: -2;
 }
 
+/* Anchor tags */
+
+/* add class="jumptarget" to all targets. */
+
+.jumptarget:before {
+	content:"";
+	display:block;
+	height:65px; /* fixed header height*/
+	margin:-65px 0 0; /* negative fixed header height */
+}
+
+{top: 90px;}
 
 /* Customize the text color and shadow color and to optimize text legibility. */
 
@@ -88,8 +128,10 @@ hr.symbol:after {
 	font-family: Bonzer;
 
 
+}
 
-
+.center {
+	margin: 0 auto;
 }
 
 .outside-pics {
@@ -119,12 +161,8 @@ hr.symbol:after {
 
 }
 
-.bubbles.img-responsive
-{
+.bubbles.img-responsive {
 	margin: 0 auto;
-
-
-
 
 }
 .bubbles
@@ -494,11 +532,16 @@ section.section-styling
 
 /* Image Gallery CSS */
 
-.slick-slide img {
-	border: 5px solid #FFF;
+img.rounded{
+
 	border-radius: 5px;
 	display: block;
 	width: 100%;
+}
+
+.hreview
+{
+	margin: 0 auto;
 }
 
 .rooms div
@@ -565,5 +608,5 @@ section
 {
 
 	background-color: papayawhip;
-	margin-top: 200px;
+
 }

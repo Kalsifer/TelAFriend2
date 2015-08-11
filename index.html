@@ -81,7 +81,7 @@
     </style> -->
 
 </head>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- Navigation Start -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -98,16 +98,22 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="#top">Home</a>
                 </li>
                 <li>
-                    <a href="rooms_and_rates.html">Rooms & Rates</a>
+                    <a href="#roomsrates">Rooms & Rates</a>
+                </li>
+                <li><a href="#reservations">Make a reservation</a></li>
+                <li>
+                    <a href="#food">Places to eat</a>
                 </li>
                 <li>
-                    <a href="attractions.html">Local Attractions</a>
+                    <a href="#attractions">Things to do</a>
+                </li>
+                <li><a href="#reviews">Our Reviews</a>
                 </li>
                 <li>
-                    <a href="about.html">Feedback & About</a>
+                    <a href="#contact-us">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -116,20 +122,21 @@
 <!-- Navigation End -->
 
 
-<header class="business-header">
-<div class="tagline">Tel-A-Friend</div>
+<div id="top">
+<header id="business-header" >
+<img class="img-responsive" src="img/header-text2.jpg">
 </header>
-
+</div>
 
 <!-- Page Content -->
 <div class="circle-img-container">
-    <div class="col-md-4">
+    <div class="col-xs-4">
         <a href=""><img class="img-circle img-responsive bubbles" src="img/bubblePic1.jpg" alt="attractions"></a>
     </div>
-    <div class="col-md-4">
+    <div class="col-xs-4">
         <a href=""><img class="img-circle img-responsive bubble-pic-remove bubbles" src="img/bubblePic2.jpg" alt="About Us"></a>
     </div>
-    <div class="col-md-4">
+    <div class="col-xs-4">
         <a href=""><img class="img-circle img-responsive bubble-pic-remove bubbles" src="img/bubblePic3.jpg" alt="Rooms and Rates"></a>
     </div>
 </div>
@@ -143,7 +150,7 @@
             <h1>Tel-A-Friend, Country-Style Motel</h1>
 
             <p class="lead">
-                Located within walking distance of downtown Vernon shops and parks, the Tel-A-Friend Country Motel
+                Located within walking distance of downtown Vernon shops and parks, and only blocks from Vernon Jubilee Hospital, the Tel-A-Friend Country Motel
                 brings you 50' eclectic charm and reasonable rates.
                 Whether you are in Vernon for business or pleasure, the Tel-A-Friend Motel is a convenient and
                 comfortable spot to stay. Skiing, biking, hiking, golfing, and wine tours, Tel-A-Friend is close to
@@ -167,32 +174,30 @@
                         <!-- Outside pics slider -->
                       <div class="slider autoplay outside">
 
-                          <div><div class="image"><img src="img/outside/sign.jpg"></div></div>
-                          <div><div class="image"><img src="img/outside/garden.jpg"></div></div>
-                          <div><div class="image"><img src="img/outside/outside.jpg"></div></div>
+                          <div><div class="image"><img class="rounded" src="img/outside/sign.jpg"></div></div>
+                          <div><div class="image"><img class="rounded" src="img/outside/garden.jpg"></div></div>
+                          <div><div class="image"><img class="rounded" src="img/outside/outside.jpg"></div></div>
                        <!--    <div><div class="image"><img src="img/outside/kal-lake.jpg"></div></div> -->
-                          <div><div class="image"><img src="img/outside/cowboy.jpg"></div></div>
-                          <div><div class="image"><img src="img/outside/outside2.jpg"></div></div>
-                          <div><div class="image"><img src="img/outside/outside3.jpg"></div></div>
-                          <div><div class="image"><img src="img/outside/outside4.jpg"></div></div>
+                          <div><div class="image"><img class="rounded" src="img/outside/cowboy.jpg"></div></div>
+                          <div><div class="image"><img class="rounded" src="img/outside/outside2.jpg"></div></div>
+                          <div><div class="image"><img class="rounded" src="img/outside/outside3.jpg"></div></div>
+                          <div><div class="image"><img class="rounded" src="img/outside/outside4.jpg"></div></div>
 
 
                       </div>
                     </div>
 
 
-                  </section>
 
+                        <section class="rooms-rates section-styling" >
 
-                        <section class="rooms-rates section-styling">
-
-                        <h1 class="bg-success h1-title">Room Information</h1>
+                        <div id="roomsrates" class="jumptarget"><h1 class="bg-success h1-title">Room Information</h1></div>
 
                             <div>
                             <ul class="nav nav-tabs">
                                 <li class="active">
                                     <a data-toggle="pill" href="#menu1">
-                                        Single Queen (Max
+                                        Single Queen (
                                         <span class="glyphicon glyphicon-user"></span>
                                         <span class="glyphicon glyphicon-user"></span>)
                                     </a>
@@ -221,12 +226,12 @@
 
 
 
-                                <h3>HOME</h3>
+                                <h3>About Our Rooms</h3>
                                 <p>A coffee maker, a work desk, and a sofa are provided in the suites at Tel-A-Friend Motel. An en suite bathroom includes free toiletries. Guests can enjoy garden views. A gas furnace offers heating in all suites.
 
                                     A guest launderette is offered at Motel Tel-A-Friend. A vending machine provides drinks. Fax and photocopying facilities are available on site. Free on-site parking is included.</p>
 
-                            <div id="menu1" class="tab-pane fade">
+                            <div id="menu1" class="tab-pane fade in active">
                                 <h3>Menu 1</h3>
                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             </div>
@@ -272,9 +277,9 @@
 
                                     <!-- Amenities Paste End -->
                                     <div class="slider autoplay fade2 col-md-8" id="img-rotate">
-                                        <div><div class="image"><img src="img/room-pictures/room11.jpg"></div></div>
-                                        <div><div class="image"><img src="img/room-pictures/room12.jpg"></div></div>
-                                        <div><div class="image"><img src="img/room-pictures/room13.jpg"></div></div>
+                                        <div><div class="image"><img class="rounded" src="img/room-pictures/room11.jpg"></div></div>
+                                        <div><div class="image"><img class="rounded" src="img/room-pictures/room12.jpg"></div></div>
+                                        <div><div class="image"><img class="rounded" src="img/room-pictures/room13.jpg"></div></div>
                                     </div>
                                 </div>
                             </div>
@@ -286,9 +291,9 @@
 
                         </div>
                         </section>
-    <section class="food section-styling">
+    <section class="section-styling">
 
-        <h1 class="bg-success h1-title">Places to Eat</h1>
+        <div id="food" class="jumptarget"><h1 class="bg-success h1-title">Places to Eat</h1></div>
         
         <h2>Food Services</h2>
         <div class="row">
@@ -302,7 +307,7 @@
 
     <section class="attractions section-styling">
 
-        <h1 class="bg-success h1-title">Local Attractions</h1>
+        <div id="attractions" class="jumptarget"><h1 class="bg-success h1-title">Local Attractions</h1></div>
 
 
         <h2>Nearby Attractions</h2>
@@ -318,17 +323,17 @@
 </p>
 
         <div class="row">
-            <div class="col-md-offset-3">
-                    <img class="responsive thumbnail" src="img/ssvillage.jpg" alt="Pulpit Rock" style="width:150px;height:150px">
-            </div>
-            <div class="col-md-offset-3">
-                <img class="responsive thumbnail" src="img/ssvillage.jpg" alt="Pulpit Rock" style="width:150px;height:150px">
+            <div class="col-md-3">
+                    <img class="responsive thumbnail center" src="img/ssvillage-med.jpg" alt="Silver Star Village" style="width:240px;height:180px">
             </div>
             <div class="col-md-3">
-                <img class="responsive thumbnail" src="img/ssvillage.jpg" alt="Pulpit Rock" style="width:150px;height:150px">
+                <img class="responsive thumbnail center" src="img/golf-thumb.jpg" alt="Golfing" style="width:150px;height:150px">
             </div>
             <div class="col-md-3">
-                <img class="responsive thumbnail" src="img/ssvillage.jpg" alt="Pulpit Rock" style="width:150px;height:150px">
+                <img class="responsive thumbnail center" src="img/winery-thumb.jpg" alt="Quail's Gate Winery" style="width:150px;height:150px">
+            </div>
+            <div class="col-md-3">
+                <img class="responsive thumbnail center" src="img/ssvillage.jpg" alt="Pulpit Rock" style="width:150px;height:150px">
             </div>
         </div>
         <h2>Hiking and Biking</h2>
@@ -339,12 +344,45 @@
         <a href="https://docs.google.com/viewer?url=http%3A%2F%2Fwww.tourismvernon.com%2Fdocuments%2Fcity_streets_Apr9.pdf" target="_blank">View and download Vernon Attractions Map</a><p>
 </p>
     </section>
+                      <section>
+                          <div id="reviews" class="jumptarget"><h1 class="bg-success h1-title">Check out some of our great reviews!</h1></div>
+
+                          <div class="review-container">
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <!-- test review widget -->
+                                      <script>
+                                          (function() {
+                                              var randomId = Math.floor(Math.random() * 100000);
+                                              var targetElemId = 'bcom_rwidget_' + randomId;
+                                              document.write('<div id="' + targetElemId + '"></div>');
+                                              var script   = document.createElement('script');
+                                              script.type  = 'text/javascript';
+                                              script.async = true;
+                                              script.src   = 'http://www.booking.com/review_widget/ca/tel-a-friend-motel.en.html?tmpl=review_widget/review_widget&wid=' + targetElemId + '&wtype=box_big&hotel_id=534548&widget_language=en';
+                                              var node     = document.getElementsByTagName('script')[0];
+                                              node.parentNode.insertBefore(script, node);
+                                          }());
+                                      </script>
+
+                                  </div>
+                                  <div class="slider variable-width">
+
+
+                                      <div><img src="img/review3.png"></div>
+
+                                      <div><img src="img/review2.png"></div>
+                                      <div><img src="img/review1.png"></div>
+                                  </div>
+                              </div></div>
+                      </section>
+                  </section>
 
                             <br>
 
 
-        <section class=" contact-info section-styling">
-            <h1 class="bg-info h1-title">Contact Us</h1>
+        <section class="contact-info section-styling">
+            <div id="contact-us" class="jumptarget"><h1 class="bg-info h1-title">Contact Us</h1></div>
                 <div class="row">
                 <div class="contact-container">
                     <div class="col-md-4">
