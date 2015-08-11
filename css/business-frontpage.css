@@ -38,7 +38,15 @@ body {
 
 								  }
 
+/* Navbar */
 
+.navbar-inverse .navbar-brand {
+	color: #F3EEC6;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #F3EEC6;
+}
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
