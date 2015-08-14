@@ -158,11 +158,12 @@ hr.symbol:after {
 }
 
 
-#header-row
-{
+/* Accordion */
 
+.accordion-toggle {cursor: pointer;}
+.accordion-content {display: none;}
+.accordion-content.default {display: block;}
 
-}
 
 .col-xs-4 {
 	padding-bottom: 20px;
@@ -183,6 +184,9 @@ hr.symbol:after {
 
 }
 
+.fa-check-circle {
+	color: green;
+}
 section#info
 {
 
