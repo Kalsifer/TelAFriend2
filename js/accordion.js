@@ -2,7 +2,7 @@
  * Created by alani on 2015-08-13.
  */
     $(document).ready(function($) {
-        $('#accordion').find('.accordion-toggle').click(function(){
+        $('.accordion').find('.accordion-toggle').click(function(){
 
             //Expand or collapse this panel
             $(this).next().slideToggle('fast');
