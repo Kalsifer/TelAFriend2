@@ -216,9 +216,17 @@ footer
 	text-align: center;
 }
 
-@font-face{
-	font-family: Bonzer;
-	src: url('../fonts/Bonzer.ttf');
+@font-face {
+	font-family:Bonzer;
+	src: url('../fonts/bonzer_-_san_francisco-webfont.eot');
+	src: url('../fonts/bonzer_-_san_francisco-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/bonzer_-_san_francisco-webfont.woff2') format('woff2'),
+	url('../fonts/bonzer_-_san_francisco-webfont.woff') format('woff'),
+	url('../fonts/bonzer_-_san_francisco-webfont.ttf') format('truetype'),
+	url('../fonts/bonzer_-_san_francisco-webfont.svg#bonzer_-_san_franciscoregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
 }
 
 .nav .navbar-nav
@@ -239,11 +247,11 @@ footer
 
 h1
 {
-	font-family:"Bonzer";
-	font-weight: bold;
+	font-family:Bonzer;
+
 	padding-left: 20px;
 	margin-left: -20px;
-	font-size: 3vw;
+	font-size: 4vw;
 
 
 }
@@ -260,6 +268,30 @@ h1
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 }
 
+
+
+
+/* Price */
+
+.price {
+	 font-family: Bonzer;
+	 font-size: 2vw;
+	 color: green;
+	 padding-left: 200px;
+	 margin-top: -90px;
+	 margin-bottom: -30px;
+
+ }
+
+.price2 {
+	font-family: Bonzer;
+	font-size: 2vw;
+	color: green;
+	padding-left: 200px;
+	margin-top: -110px;
+	margin-bottom: -10px;
+
+}
 /* Icons */
 
 .glyphicon-ok
@@ -278,6 +310,12 @@ input, select, textarea
 	
 }
 
+.threehundred {
+
+	width:500px;
+}
+
+
 textarea
 {
 	height: 100px;
@@ -292,6 +330,9 @@ textarea
 
 }
 
+.testhundred {
+
+}
 #reservation-button
 {
 	margin: auto;
